@@ -14,6 +14,7 @@ import javafx.application.Application;
 
 /******************************
  * All this class does(so far) is start the program and send us over to menu.
+ * //This comment is a test to see how git commit works
 *********************/
 public class Main extends Application {
     public static void main(String[] args) {
@@ -27,7 +28,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setWidth(300.0);
-        primaryStage.setHeight(300.0);
+        primaryStage.setHeight(100.0); //here is the change that I am making to test
         Menu access = new Menu(primaryStage);
         access.sceneMenu();
         //entering menu
